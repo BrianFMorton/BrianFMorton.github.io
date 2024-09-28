@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <style>
+        body {
+            margin: 0; /* Remove default margin */
+            height: 100vh; /* Full viewport height */
+        }
+
+        .image-container {
+            position: absolute; /* Position relative to the viewport */
+            top: 0; /* Align to the top */
+            right: 0; /* Align to the right */
+            width: 30%; /* Make the image container full width */
+            height: auto; /* Keep aspect ratio */
+        }
+
+        img {
+            width: 30%; /* Make the image fit the container */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
 </head>
 <body>
-    <h1>Brian Morton</h1>
-    <style>
-  .image-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 50vh; /* Full viewport height */
-  }
-</style>
-
 <div class="image-container">
   <img src="ProfilePicture.png" alt="Description of image">
 </div>
+    <h1>Brian Morton</h1>h1
     <h2>Graduate Student</h2>
     <p>Department of Mathematics<br>
     Vanderbilt University<br>
@@ -28,7 +38,7 @@
     <p> 1400 18th Ave S<br>
     Office A3106<br>
     Nashville, TN 37212</p>
-    </p>1326 Stevenson Center Ln<br>
+    <p>1326 Stevenson Center Ln<br>
     Office SC1227F <br>
     Nashville, TN 37240</p>
     </p>brian.f.morton@vanderbilt.edu</p>
